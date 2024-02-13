@@ -1,0 +1,39 @@
+/** @format */
+
+.widget {
+	width: 345px;
+	height: 300px;
+	border: 1px dashed gray;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	transform: translate(+200%, +50%);
+	column-gap: 16px;
+}
+
+.widget-text {
+	font-family: "Protest Strike", sans-serif;
+	letter-spacing: 0.02em;
+	line-height: 1.6;
+	font-size: 24px;
+}
+
+.change-color {
+	font-family: "Protest Strike", sans-serif;
+	background-color: #4e75ff;
+	width: 130px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	letter-spacing: 0.04em;
+	line-height: 1.6;
+	color: #ffffff;
+}
+
+.change-color:hover,
+.change-color:focus {
+	background-color: #6c8cff;
+	cursor: pointer;
+}
