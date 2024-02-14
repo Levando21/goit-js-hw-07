@@ -1,6 +1,7 @@
 /** @format */
 
 const inputElem = document.getElementById("name-input");
+const mainString = document.getElementById("h1");
 const newString = document.getElementById("name-output");
 
 inputElem.addEventListener("input", callback);
