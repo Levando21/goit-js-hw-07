@@ -1,10 +1,9 @@
 /** @format */
 
 const inputElem = document.getElementById("name-input");
-const mainString = document.querySelector("h1");
 const newString = document.getElementById("name-output");
 
-inputElem.addEventListener("blur", callback);
+inputElem.addEventListener("input", callback);
 
 function callback() {
 	const inputValue = inputElem.value.trim();
@@ -14,5 +13,4 @@ function callback() {
 		newString.textContent = inputValue;
 	}
 	const fullString = mainString.textContent;
-	console.log(fullString);
 }

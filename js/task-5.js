@@ -1,7 +1,7 @@
 /** @format */
 
 const pushButton = document.querySelector(".change-color");
-const back = document.querySelector(".widget");
+const back = document.querySelector("body");
 
 pushButton.addEventListener("click", () => {
 	const color = getRandomHexColor();

@@ -9,13 +9,13 @@ function toSubmit(e) {
 	const fieldPassword = dataToSubmit.elements.password.value;
 
 	const dataObj = {
-		fieldMail,
-		fieldPassword,
+		email: fieldMail.trim(),
+		password: fieldPassword.trim(),
 	};
-
-	dataToSubmit.reset();
 
 	if (fieldMail === "" || fieldPassword === "") {
 		console.log(alert("All form fields must be filled in"));
 	}
+
+	dataToSubmit.reset();
 }
